@@ -1,5 +1,5 @@
 export default interface ApiData {
-  'acess-token': string,
+  'access-token': string,
   client: string,
   expiry: number,
   'token-type': string,
