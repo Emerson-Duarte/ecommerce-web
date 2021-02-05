@@ -6,6 +6,10 @@ import { store, persistor } from '../store';
 import Head from 'next/head';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/globals.css';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+toast.configure()
 
 const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
   return (
