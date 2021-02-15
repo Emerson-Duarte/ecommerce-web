@@ -50,7 +50,7 @@ const SearchAndIcon: React.FC<SearchAndIcon> = ({ icon, newPath }) => {
           <Col lg={9} xs={10}>
             <InputGroup>
               <FormControl
-                placeholder="Pesquisar usuário"
+                placeholder="Pesquisar"
                 className={styles.input}
                 value={search}
                 onChange={

@@ -7,7 +7,7 @@
 }
 
 .admin_panel table thead tr th {
-  text-align: left;
+  text-align: center;
 }
 
 .admin_panel table thead tr th:last-of-type {
